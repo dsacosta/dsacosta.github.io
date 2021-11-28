@@ -1,5 +1,9 @@
 module.exports = function(grunt) {
-
+//update grunt
+    "dependencies": {
+  "grunt": ">=1.3.0"
+}
+    
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
